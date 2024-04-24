@@ -1,0 +1,32 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.specialLoginWindow{
+    width: 300px;
+    height: 250px;
+    border: solid black 2px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 132);
+}
+.buttonSpecial{
+    border: solid black 2px;
+    border-radius: 20px;
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(255, 183, 0);
+    transition: background-color 0.5s;
+    color:white;
+}
+
+.buttonSpecial:hover{
+    background-color: rgb(239, 152, 1);
+    transition: background-color 0.5s;
+}
